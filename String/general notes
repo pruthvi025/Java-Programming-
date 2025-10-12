@@ -1,0 +1,17 @@
+In java  primitive are stored in stack memory and non primitive(objects) are stored in heap memory means objects are in heap 
+and veriable are in stack but in python each and every thing is object so all stored in heap memory 
+
+for using integer as a object we are uing wrapper class like (Integer a = new Integer(5))
+so now a is treated as object and we are able to perform many object related operation or we can say
+many methods in int type veriable . 
+
+in short The primary purpose of wrapper classes is to bridge the gap between primitive types and
+ the object-oriented nature of Java.
+
+
+
+ internally prinln call the toString methods for converting any value to object
+
+
+ + operator in java we can only use with primitive and we can use with all complex as well 
+ but only one condition is at least on of these object is should be type String
