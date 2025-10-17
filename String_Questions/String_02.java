@@ -10,7 +10,7 @@ public class String_02 {
      
         int j=S.length()-1;
         String ReveString="";
-
+// here we are using loop for reverse the string two pointer approch
         while(0<=j){
             ReveString+=S.charAt(j);
             j--;
