@@ -2,10 +2,11 @@ public class Con1 {
     public static void main(String[] args) {
 
         student s1=new student();
+        student s2=new student ("pruthvi");
+        student s3 =new student(25);
+
         
     }
-
-
     
 }
 /*
@@ -21,10 +22,30 @@ at the time of object creation
 
 class student{
     String name;
-    int marks;
+    int rollNo;
 
 
-    student(){
+    student(){  //<-   non parameterize constructor
         System.out.println("constructor is called ");
     }
+
+    student(String name){        
+        this.name=name;
+    }                                     // here we have maked Constructor overloading (multiple Constructor who have same name)
+
+    public student( int rollNo) {
+        this.rollNo = rollNo;
+    }
+    
 }
+
+/*
+
+
+type of constructor ..there is three type of constructor
+
+1) non-paramiterize 
+2) parameterize
+3) copy constructor
+
+*/
