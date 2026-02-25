@@ -24,6 +24,9 @@ Abstraction is implemented using two ways:-
     abstract method is such kind of methods in wich we are not able to make a implementation in same class
 
 
+    using abstract class we are not able to achive 100% abstraction because we may have non-abstract methods in abstract class
+
+    so to achive 100% abstraction we are using the Interfaces
 
 
     */
