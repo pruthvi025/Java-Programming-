@@ -18,6 +18,7 @@ at the time of object creation
 3) cunstructor are only calls the once at the object creation
 4) memory allowcation happens when cunstructor is created
 
+Constructor is a special method used to initialize an object and ensure it is created in a valid and consistent state.
 */
 
 class student{
