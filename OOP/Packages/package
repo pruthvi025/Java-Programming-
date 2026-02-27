@@ -1,0 +1,10 @@
+
+
+
+package in java
+
+package is a group of similar type of classes , interface and sub-packages
+
+two type of packages in java
+1- inbuilt package (ex- Utility package)
+2- userdefine package ( created by user)
